@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #ffffff;    
+}
+
+header{
+    background-color:#ffffff;
+    padding: 15px 40px;
+    position: relative;
+    align-items: center;
+}
+
+#logo1, #logo2{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    position: absolute;
+    top: 15px;
+}
+
+.infos_entreprise{
+    text-align: center;
+    flex: 1;
+}
+
+#logo1{
+    left: 40px;
+}
+
+#logo2{
+    right: 40px;
+}
+
+.infos_entreprise h1{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.infos_entreprise p:first-of-type{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.infos_entreprise p{
+    margin: 5px 0;
+}
+
+nav{
+    background-color:#05367b;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #87ceeb;
+}
+
+#accueil{
+    padding: 60px 40px;
+    text-align: center;
+}
+
+#accueil h2{
+    font-size: 32px;
+    margin: 20px;
+}
+
+#accueil p{
+    max-width: 800px;
+    margin: 0 auto 25px;
+    line-height: 1.6;
+}
+
+#accueil a{
+    display: inline-block;
+    background-color: #05367b;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+#apropos{
+    padding: 50px 40px;
+    background-color: #eaf4fb;
+    text-align: center;
+}
+
+#apropos h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#apropos p{
+    max-width: 850px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+#services{
+    padding: 60px 40px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#services h2{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.services-container article{
+    padding: 25px;
+    background-color: #d6efff;
+    border: 1px solid #4a90c2;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0.08);
+    text-align: center;
+}
+
+#services-container article h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#sevices-container article p{
+    line-height: 1.6;
+}
+
+#services-container article:hover{
+    transform: tranlatey(-5px);
+}
+
+#contact{
+    padding: 50px 40px;
+    background-color: #eaf4fb;
+    text-align: center;
+}
+
+#contact h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+#contact p{
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+#contact a{
+    color: #4a90c2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover{
+    color: #0989e4;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #05367b;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+footer p{
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
